@@ -8,11 +8,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="*"/>
-    <PackageReference Include="xunit" Version="2.4.2"/>
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="coverlet.collector" Version="3.2.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -23,6 +18,13 @@
     <PackageReference Include="System.Configuration" Version="*"/>
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="*"/>
     <PackageReference Include="MSTest" Version="*"/>
+    <PackageReference Include="ExcelDataReader" Version="*"/>
+    <PackageReference Include="System.Xml.XmlDocument" Version="*"/>
+    <PackageReference Include="System.Xml.XmlSerializer" Version="*"/>
+    <PackageReference Include="System.Xml.ReaderWriter" Version="*"/>
+    <PackageReference Include="ExcelDataReader.DataSet" Version="*"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="*"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="*"/>
   </ItemGroup>
   <Target Name="CopyAppConfig" AfterTargets="Build" DependsOnTargets="Build">
     <CreateItem Include="$(OutputPath)$(AssemblyName).dll.config">
