@@ -6,7 +6,7 @@ using AutomationExerciseUITests.Settings;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 
-namespace AutomationExerciseUITests.PageObject.Pages
+namespace AutomationExerciseUITests.PageObjects.Pages
 {
     public class LoginPage : BasePage
     {

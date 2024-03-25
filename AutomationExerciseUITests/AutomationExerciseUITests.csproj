@@ -25,6 +25,8 @@
     <PackageReference Include="ExcelDataReader.DataSet" Version="*"/>
     <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="*"/>
     <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="*"/>
+    <PackageReference Include="SpecFlow.MsTest" Version="*"/>
+    <PackageReference Include="ExtentReports" Version="4.1.0"/>
   </ItemGroup>
   <Target Name="CopyAppConfig" AfterTargets="Build" DependsOnTargets="Build">
     <CreateItem Include="$(OutputPath)$(AssemblyName).dll.config">

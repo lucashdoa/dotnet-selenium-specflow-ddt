@@ -44,10 +44,12 @@ namespace AutomationExerciseUITests.BaseClasses
             return driver;
         }
 
-        [AssemblyInitialize]
+        //[AssemblyInitialize]
         public static void InitWebdriver(TestContext tc)
         {
             ObjectRepository.Config = new AppConfigReader();
+
+            var a = ObjectRepository.Config.GetUsername();
 
             try
             {
@@ -76,7 +78,7 @@ namespace AutomationExerciseUITests.BaseClasses
             }
         }
 
-        [AssemblyCleanup]
+        //[AssemblyCleanup]
         public static void TearDown()
         {
             if (ObjectRepository.Driver != null)
