@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AutomationExerciseUITests.PageObject.Pages;
+using AutomationExerciseUITests.PageObjects.Pages;
 using AutomationExerciseUITests.Settings;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 
-namespace AutomationExerciseUITests.PageObject
+namespace AutomationExerciseUITests.PageObjects
 {
     public class BasePage
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutomationExerciseUITests.ComponentsHelper;
 using AutomationExerciseUITests.ExcelReader;
-using AutomationExerciseUITests.PageObject.Pages;
+using AutomationExerciseUITests.PageObjects.Pages;
 using AutomationExerciseUITests.Settings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
